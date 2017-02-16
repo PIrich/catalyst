@@ -137,7 +137,7 @@ a {
   float: left;
   text-decoration: none; }
   .header nav a img, .header nav a svg {
-    height: 26px;
+    height: 30px;
     width: auto;
     vertical-align: middle;
     -moz-transform: translate(0, -1px);
