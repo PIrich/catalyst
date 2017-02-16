@@ -1,7 +1,7 @@
 /* FONTS */
 @font-face {
   font-family: 'montserrat-light';
-  src: url("//raw.githubusercontent.com/GaberNeighbor/pi_header/master/app/css/montserrat-light-webfont.woff2") format("woff2"), url("//raw.githubusercontent.com/GaberNeighbor/pi_header/master/app/css/montserrat-light-webfont.woff") format("woff");
+  src: url("//rawgit.com/PIrich/catalyst/master/app/css/montserrat-light-webfont.woff2") format("woff2"), url("//rawgit.com/PIrich/catalyst/master/app/css/montserrat-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -63,7 +63,7 @@ a {
   -o-transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
   -webkit-transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
   transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
-  background: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/logo_catalyst.svg"), url("https://rawgit.com/GaberNeighbor/pi_header/master/app/images/background_powder-explosion.jpg");
+  background: url("//rawgit.com/PIrich/catalyst/master/app/images/logo_catalyst.svg"), url("//rawgit.com/PIrich/catalyst/master/app/images/background_powder-explosion.jpg");
   background-position: center 70%, center 70%;
   background-attachment: inherit, fixed;
   background-size: 350px auto, 100%;
@@ -373,13 +373,13 @@ a {
         padding: 0px 10px 10px 35px;
         float: left;
         line-height: 20px;
-        background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list.svg);
+        background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list.svg);
         background-repeat: no-repeat;
         background-size: 7px auto;
         background-position: 1.7vw 7px;
         min-width: 100%; }
         .menu .sub-menu li a:hover {
-          background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg); }
+          background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list__y.svg); }
     .menu .sub-menu.support li a {
       min-width: 180px; }
     .menu .sub-menu.education li a {
@@ -423,7 +423,7 @@ a {
       -moz-box-shadow: inset 0px 0px 0px 20px #fff;
       box-shadow: inset 0px 0px 0px 20px #fff; }
       .menu .search__bar input:focus + .search__button:before {
-        content: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search__b.svg"); }
+        content: url("https://rawgit.com/PIrich/catalyst/master/app/images/icon_search__b.svg"); }
       .menu .search__bar input:focus + .search__button:hover:before {
         opacity: 1;
         -moz-transform: translate(0, 0);
@@ -472,7 +472,7 @@ a {
     transform: rotate(0deg);
     overflow: hidden; }
     .menu .search__button:before {
-      content: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search.svg");
+      content: url("https://rawgit.com/PIrich/catalyst/master/app/images/icon_search.svg");
       -moz-transition: all 0.3s ease-out;
       -o-transition: all 0.3s ease-out;
       -webkit-transition: all 0.3s ease-out;
@@ -708,7 +708,7 @@ a {
     width: 44px;
     height: 44px; }
     .menu .search__button:before {
-      content: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search__b.svg);
+      content: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_search__b.svg);
       top: 15px;
       right: 16px; }
   .nav__secondary {
@@ -753,7 +753,7 @@ a {
         top: 5px;
         left: 2px; }
       .nav__main input ~ label:before {
-        content: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_plus.svg");
+        content: url("https://rawgit.com/PIrich/catalyst/master/app/images/icon_plus.svg");
         width: 44px;
         height: 44px;
         position: absolute;
@@ -907,13 +907,13 @@ html.advocate_hub {
       padding: 0px 10px 10px 35px;
       float: left;
       line-height: 20px;
-      background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list.svg);
+      background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list.svg);
       background-repeat: no-repeat;
       background-size: 7px auto;
       background-position: 1.7vw 7px;
       min-width: 100%; }
       #meta-bar .dropdown-menu li a:hover {
-        background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg);
+        background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list__y.svg);
         background-color: transparent; }
 
 body[data-community="Catalyst"] > div {
