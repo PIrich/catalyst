@@ -11,7 +11,8 @@ let stateCheck = setInterval(() => {
 
         function search(e) {
             var input = e.value;
-            var win = window.location = 'https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input;
+            console.log(input);
+            window.location.href = ('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input);
         }
 
         let iconCheck = setInterval(() => {
