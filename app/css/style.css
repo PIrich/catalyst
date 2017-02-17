@@ -18,7 +18,6 @@ html, body, button {
   font-weight: 100;
   font-size: 1em;
   line-height: 1.4;
-  height: 100%;
   margin: 0 !important;
   padding: 0; }
 
@@ -1053,7 +1052,8 @@ body[data-community="Catalyst"].header--smaller > div {
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
-    overflow: visible; }
+    overflow: visible;
+    height: 100%; }
     body[data-community="Catalyst"].with--sidebar:after {
       content: '';
       position: absolute;
