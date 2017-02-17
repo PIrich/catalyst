@@ -1104,6 +1104,8 @@ body[data-community="Catalyst"].header--smaller > div {
     -webkit-transition: height 0s linear 0.3s;
     transition: height 0s linear 0.3s;
     height: 66px; }
+    .cViewPanel > div[data-region-name="customHeader"] .ui-widget {
+      line-height: 0; }
 
 body.header--smaller .cViewPanel > div {
   -moz-transform: translate(0, 56px);
