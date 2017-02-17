@@ -1129,7 +1129,7 @@ body .uiContainerManager {
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
-    height: 100%; }
+    height: 100vh; }
     body.with--sidebar:after {
       content: '';
       position: absolute;
