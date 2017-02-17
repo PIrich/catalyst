@@ -1091,6 +1091,11 @@ body[data-community="Catalyst"].header--smaller > div {
   position: relative;
   z-index: 1; }
   .cViewPanel > div[data-region-name="customHeader"] {
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
     z-index: 2;
     position: fixed;
     width: 100%;
