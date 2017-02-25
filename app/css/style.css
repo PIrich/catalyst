@@ -1122,16 +1122,6 @@ body .uiContainerManager {
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  body.with--sidebar:after {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 66px;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); }
   body.with--sidebar div[data-region-name="customHeader"] {
     z-index: 1;
     height: 100%;
@@ -1147,6 +1137,16 @@ body .uiContainerManager {
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
     position: static; }
+    body.with--sidebar .siteforceNapiliBody:after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 66px;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6); }
   .cViewPanel > div {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
