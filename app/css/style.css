@@ -1123,13 +1123,11 @@ body .uiContainerManager {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   body.with--sidebar {
-    overflow: hidden;
     -moz-transform: translateX(250px);
     -o-transform: translateX(250px);
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
-    transform: translateX(250px);
-    height: 100vh; }
+    transform: translateX(250px); }
     body.with--sidebar:after {
       content: '';
       position: absolute;
