@@ -1136,7 +1136,8 @@ body .uiContainerManager {
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
-    position: fixed; }
+    position: fixed;
+    width: 100%; }
     body.with--sidebar .siteforceNapiliBody:after {
       content: '';
       position: absolute;
