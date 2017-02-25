@@ -1078,7 +1078,7 @@ body[data-community="Catalyst"].header--smaller > div {
         height: 100%;
         overflow: auto; } }
 
-#header.cHeaderPanel {
+.cHeaderPanel {
   display: none; }
 
 .cViewPanel img {
@@ -1122,30 +1122,31 @@ body .uiContainerManager {
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  body.with--sidebar {
+  body.with--sidebar:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 66px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); }
+  body.with--sidebar div[data-region-name="customHeader"] {
+    z-index: 1;
+    height: 100%;
+    overflow-y: visible;
+    -moz-transition: height 0s linear 0s;
+    -o-transition: height 0s linear 0s;
+    -webkit-transition: height 0s linear 0s;
+    transition: height 0s linear 0s; }
+  body.with--sidebar .siteforceNapiliBody {
     -moz-transform: translateX(250px);
     -o-transform: translateX(250px);
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
-    transform: translateX(250px); }
-    body.with--sidebar:after {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 66px;
-      z-index: 1;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.6); }
-    body.with--sidebar div[data-region-name="customHeader"] {
-      z-index: 1;
-      height: 100%;
-      overflow-y: visible;
-      -moz-transition: height 0s linear 0s;
-      -o-transition: height 0s linear 0s;
-      -webkit-transition: height 0s linear 0s;
-      transition: height 0s linear 0s; }
+    transform: translateX(250px);
+    position: static; }
   .cViewPanel > div {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
