@@ -10,8 +10,8 @@
 * {
   -webkit-font-smoothing: antialiased !important;
   font-smoothing: antialiased !important;
-  -moz-box-sizing: border-box !important;
-  box-sizing: border-box !important; }
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 html, body, button {
   font-family: 'montserrat-light', sans-serif;
