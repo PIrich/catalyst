@@ -1058,6 +1058,8 @@ body[data-community="Catalyst"].header--smaller > div {
     -ms-transform: translate(0, 66px);
     -webkit-transform: translate(0, 66px);
     transform: translate(0, 66px); }
+  .navbar {
+    display: none; }
   body[data-community="Catalyst"] {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
