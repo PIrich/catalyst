@@ -898,6 +898,13 @@ body {
 html.advocate_hub {
   overflow-x: hidden; }
 
+.lightbox {
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
 #meta-bar .dropdown-menu {
   width: auto;
   transform: translateY(-2em);
