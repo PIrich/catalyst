@@ -966,6 +966,9 @@ body[data-community="Catalyst"].header--smaller > div {
     -webkit-transform: none !important;
     transform: none !important; }
 
+body[data-community="Catalyst"] ul.list > li {
+  background: transparent; }
+
 .dropdown-toggle:hover {
   color: #ffb635; }
 
