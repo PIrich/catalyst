@@ -384,7 +384,7 @@ body {
       .menu .sub-menu li a {
         font-size: 15px;
         padding: 0px 10px 10px 35px;
-        float: left;
+        padding-left: calc(1.7vw + 20px);
         line-height: 20px;
         background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list.svg);
         background-repeat: no-repeat;
