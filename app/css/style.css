@@ -1002,9 +1002,14 @@ body[data-community="Catalyst"] {
     left: 0;
     height: 100%; /*auto*/
     overflow: auto; }
- body[data-community="Catalyst"] .pt-modal-dialog  .pt-modal.medium {
+
+ body[data-community="Catalyst"] .pt-modal-dialog  .pt-modal {
  	height:90%;
  	overflow-y: auto;
+ }
+
+ body[data-community="Catalyst"] #lockdialog.pt-modla-dialog.close.lightbox {
+ 	display: none;
  }
 
 .dropdown-toggle:hover {
@@ -1060,6 +1065,10 @@ body[data-community="Catalyst"] {
 
 .influnet-promotion {
   display: none; }
+
+#lockdialog{
+	display: none;
+}
 
 #header-bar #header-points {
   color: #ffffff; }
