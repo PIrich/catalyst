@@ -1066,7 +1066,7 @@ body[data-community="Catalyst"] {
 .influnet-promotion {
   display: none; }
 
-.lockdialog{
+#lockdialog{
 	display: none;
 }
 
