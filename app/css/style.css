@@ -997,11 +997,15 @@ body[data-community="Catalyst"] {
   body[data-community="Catalyst"] ul.list > li {
     background: transparent; }
   body[data-community="Catalyst"] .pt-modal-dialog {
-    position: absolute !important;
+    /*position: absolute !important;*/
     top: 0;
     left: 0;
-    height: auto;
+    height: 100%; /*auto*/
     overflow: auto; }
+ body[data-community="Catalyst"] .pt-modal-dialog  .pt-modal.medium {
+ 	height:90%;
+ 	overflow-y: auto;
+ }
 
 .dropdown-toggle:hover {
   color: #ffb635; }
