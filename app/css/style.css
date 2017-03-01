@@ -939,62 +939,69 @@ html.advocate_hub {
 #meta-bar #notification-drop li.unread {
   background-color: transparent; }
 
-body[data-community="Catalyst"] > div {
-  -moz-transform: translate(0, 240px);
-  -o-transform: translate(0, 240px);
-  -ms-transform: translate(0, 240px);
-  -webkit-transform: translate(0, 240px);
-  transform: translate(0, 240px);
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  body[data-community="Catalyst"] > div#app-header, body[data-community="Catalyst"] > div#top-header, body[data-community="Catalyst"] > div#wrapper {
-    -moz-transform: none !important;
-    -o-transform: none !important;
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important; }
-  body[data-community="Catalyst"] > div#wrapper > div {
+body[data-community="Catalyst"] {
+  position: relative !important;
+  overflow: visible !important; }
+  body[data-community="Catalyst"] > div {
     -moz-transform: translate(0, 240px);
     -o-transform: translate(0, 240px);
     -ms-transform: translate(0, 240px);
     -webkit-transform: translate(0, 240px);
-    transform: translate(0, 240px); }
-    body[data-community="Catalyst"] > div#wrapper > div#top-header {
+    transform: translate(0, 240px);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    body[data-community="Catalyst"] > div#app-header, body[data-community="Catalyst"] > div#top-header, body[data-community="Catalyst"] > div#wrapper {
       -moz-transform: none !important;
       -o-transform: none !important;
       -ms-transform: none !important;
       -webkit-transform: none !important;
       transform: none !important; }
-
-body[data-community="Catalyst"].header--smaller > div {
-  -moz-transform: translate(0, 56px);
-  -o-transform: translate(0, 56px);
-  -ms-transform: translate(0, 56px);
-  -webkit-transform: translate(0, 56px);
-  transform: translate(0, 56px); }
-  body[data-community="Catalyst"].header--smaller > div#app-header, body[data-community="Catalyst"].header--smaller > div#top-header, body[data-community="Catalyst"].header--smaller > div#wrapper {
-    -moz-transform: none !important;
-    -o-transform: none !important;
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important; }
-  body[data-community="Catalyst"].header--smaller > div#wrapper > div {
-    -moz-transform: translate(0, 240px);
-    -o-transform: translate(0, 240px);
-    -ms-transform: translate(0, 240px);
-    -webkit-transform: translate(0, 240px);
-    transform: translate(0, 240px); }
-    body[data-community="Catalyst"].header--smaller > div#wrapper > div#top-header {
+    body[data-community="Catalyst"] > div#wrapper > div {
+      -moz-transform: translate(0, 240px);
+      -o-transform: translate(0, 240px);
+      -ms-transform: translate(0, 240px);
+      -webkit-transform: translate(0, 240px);
+      transform: translate(0, 240px); }
+      body[data-community="Catalyst"] > div#wrapper > div#top-header {
+        -moz-transform: none !important;
+        -o-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important; }
+  body[data-community="Catalyst"].header--smaller > div {
+    -moz-transform: translate(0, 56px);
+    -o-transform: translate(0, 56px);
+    -ms-transform: translate(0, 56px);
+    -webkit-transform: translate(0, 56px);
+    transform: translate(0, 56px); }
+    body[data-community="Catalyst"].header--smaller > div#app-header, body[data-community="Catalyst"].header--smaller > div#top-header, body[data-community="Catalyst"].header--smaller > div#wrapper {
       -moz-transform: none !important;
       -o-transform: none !important;
       -ms-transform: none !important;
       -webkit-transform: none !important;
       transform: none !important; }
-
-body[data-community="Catalyst"] ul.list > li {
-  background: transparent; }
+    body[data-community="Catalyst"].header--smaller > div#wrapper > div {
+      -moz-transform: translate(0, 240px);
+      -o-transform: translate(0, 240px);
+      -ms-transform: translate(0, 240px);
+      -webkit-transform: translate(0, 240px);
+      transform: translate(0, 240px); }
+      body[data-community="Catalyst"].header--smaller > div#wrapper > div#top-header {
+        -moz-transform: none !important;
+        -o-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important; }
+  body[data-community="Catalyst"] ul.list > li {
+    background: transparent; }
+  body[data-community="Catalyst"] .pt-modal-dialog {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: auto;
+    overflow: auto; }
 
 .dropdown-toggle:hover {
   color: #ffb635; }
