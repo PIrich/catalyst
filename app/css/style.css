@@ -952,6 +952,12 @@ body[data-community="Catalyst"] > div {
     -ms-transform: none !important;
     -webkit-transform: none !important;
     transform: none !important; }
+  body[data-community="Catalyst"] > div#wrapper > div {
+    -moz-transform: translate(0, 240px);
+    -o-transform: translate(0, 240px);
+    -ms-transform: translate(0, 240px);
+    -webkit-transform: translate(0, 240px);
+    transform: translate(0, 240px); }
 
 body[data-community="Catalyst"].header--smaller > div {
   -moz-transform: translate(0, 56px);
@@ -965,6 +971,12 @@ body[data-community="Catalyst"].header--smaller > div {
     -ms-transform: none !important;
     -webkit-transform: none !important;
     transform: none !important; }
+  body[data-community="Catalyst"].header--smaller > div#wrapper > div {
+    -moz-transform: translate(0, 240px);
+    -o-transform: translate(0, 240px);
+    -ms-transform: translate(0, 240px);
+    -webkit-transform: translate(0, 240px);
+    transform: translate(0, 240px); }
 
 body[data-community="Catalyst"] ul.list > li {
   background: transparent; }
