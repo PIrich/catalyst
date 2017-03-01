@@ -1008,6 +1008,10 @@ body[data-community="Catalyst"] {
  	overflow-y: auto;
  }
 
+ body[data-community="Catalyst"] #lockdialog.pt-modla-dialog.close.lightbox {
+ 	display: none;
+ }
+
 .dropdown-toggle:hover {
   color: #ffb635; }
 
