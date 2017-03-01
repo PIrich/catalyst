@@ -936,6 +936,9 @@ html.advocate_hub {
         background-image: url(https://rawgit.com/PIrich/catalyst/master/app/images/icon_list__y.svg);
         background-color: transparent; }
 
+#meta-bar #notification-drop li.unread {
+  background-color: transparent; }
+
 body[data-community="Catalyst"] > div {
   -moz-transform: translate(0, 240px);
   -o-transform: translate(0, 240px);
