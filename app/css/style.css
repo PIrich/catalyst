@@ -1070,6 +1070,10 @@ body[data-community="Catalyst"] {
 	display: none;
 }
 
+.challenge-suggestion {
+	display: none;
+}
+
 #header-bar #header-points {
   color: #ffffff; }
 
