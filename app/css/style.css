@@ -1070,11 +1070,7 @@ body[data-community="Catalyst"] {
 	display: none;
 }
 
-.challenge-suggestion {
-	display: none;
-}
-
-#challenge-suggestion {
+.challenge-browser .challenge-suggestion {
 	display: none;
 }
 
