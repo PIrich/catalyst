@@ -25,7 +25,7 @@
 
 #meta-bar-dreamhub .navigation-list:before {
 	content: "Community Navigation";
-	display: inline;
+	left: -150px;
 	position: absolute;
 }
 
