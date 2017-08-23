@@ -1,3 +1,7 @@
+#meta-bar-dreamhub {
+    display:none !important;
+}
+
 #flexheader{
 	display: flex;
 	flex-direction: column;
