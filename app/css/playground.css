@@ -2,6 +2,15 @@
     display:none !important;
 }*/
 
+#logo-bar{
+	margin: 0 !important;
+	max-width: 1024px !important;
+	position: relative !important;
+	height: 60px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
 #flexheader{
 	display: flex;
 	flex-direction: column;
