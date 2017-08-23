@@ -7,6 +7,9 @@
 #content{
 	margin-top: 96px;
 }
+#top-header{
+	position: relative;
+}
 /*
 
 #flexheader{
