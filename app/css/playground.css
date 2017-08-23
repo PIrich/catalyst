@@ -10,12 +10,22 @@
 #top-header{
 	position: relative;
 }
+#profile-container{
+	order:3;
+}
+.hub-navigation-column{
+	order:1;
+}
+.action-center-column{
+	order:2;
+}
 /*
 
 #flexheader{
 	display: flex;
 	flex-direction: column;
 }
+.hub-navigation-column
 
 #flexheader > #top-header { order: 1; }
 #flexheader > #meta-bar-dreamhub { order: 2; }
