@@ -1,12 +1,13 @@
-#meta-bar-dreamhub {
+/*#meta-bar-dreamhub {
     display:none !important;
-}
+}*/
 
 #flexheader{
 	display: flex;
 	flex-direction: column;
 }
 
-#flexheader > #meta-bar-dreamhub { order: 2; }
 #flexheader > #top-header { order: 1; }
+#flexheader > #meta-bar-dreamhub { order: 2; }
+
 
