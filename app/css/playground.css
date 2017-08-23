@@ -11,13 +11,14 @@
 	position: relative;
 }
 #profile-container{
-	order:3;
+	order:2;
+	justify-content: flex-end;
 }
 .hub-navigation-column{
 	order:1;
 }
 .action-center-column{
-	order:2;
+	order:3;
 }
 /*
 
