@@ -21,3 +21,9 @@
 #flexheader > #meta-bar-dreamhub { order: 2; }
 
 */
+
+
+#meta-bar-dreamhub .navigation-list:before {
+	content: "Community Navigation";
+	display: inline;
+}
