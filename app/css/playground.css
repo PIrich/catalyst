@@ -32,6 +32,11 @@
 #meta-bar-dreamhub .navigation-list {
 	position: relative;
 }
+  .menu{
+    float: right;
+    width: 30%;
+  }
+
   .menu .search__bar {
     position: relative;
     float: left;
