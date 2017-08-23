@@ -1,14 +1,5 @@
 /*#meta-bar-dreamhub {
     display:none !important;
-}*/
-
-#top-header{
-	margin: 0 !important;
-	max-width: 1024px !important;
-	position: relative !important;
-	height: 60px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
 }
 
 #flexheader{
@@ -19,4 +10,4 @@
 #flexheader > #top-header { order: 1; }
 #flexheader > #meta-bar-dreamhub { order: 2; }
 
-
+*/
