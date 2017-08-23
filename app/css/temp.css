@@ -13,7 +13,7 @@ header.header * {
   top: 0;
   left: 0;
   z-index: 999;
-  background: url("//rawgit.com/PIrich/catalyst/master/app/images/logo_catalyst.svg"), url("//rawgit.com/PIrich/catalyst/master/app/images/Catalyst_Temp_BG.svg");
+  background: url("http://rawgit.com/PIrich/catalyst/master/app/images/logo_catalyst.svg"), url("http://rawgit.com/PIrich/catalyst/master/app/images/Catalyst_Temp_BG.svg");
   background-position: center 70%, center 70%;
   background-attachment: inherit, fixed;
   background-size: 350px auto, 100%;
@@ -66,19 +66,19 @@ header.header * {
 
 .header .home {
   position: relative; }
-  .header .home img {
+
+ .header .home img {
     height: 39px;
     z-index: 1001;
     top: 8px;
-    position: absolute;
- }
+    position: absolute;}
 
 .nav__main {
   float: left;
   width: 100%; }
-  .nav__main a {
+.nav__main a {
     padding: 0 2.5vw; }
-  .nav__main input[type=checkbox] {
+.nav__main input[type=checkbox] {
     display: none; }
 
 .nav__secondary, #meta-bar .container {
