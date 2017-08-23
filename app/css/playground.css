@@ -32,3 +32,98 @@
 #meta-bar-dreamhub .navigation-list {
 	position: relative;
 }
+  .menu .search__bar {
+    position: relative;
+    float: left;
+    z-index: 3; }
+  .menu .search__bar input {
+    margin: 11px 0 0 2.5vw;
+    border: none;
+    height: 34px;
+    padding: 0 36px 0 14px;
+    width: 212px;
+    float: left;
+    position: relative;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'montserrat-light', sans-serif;
+    font-size: 13px;
+    outline: none;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #fff;
+    -moz-box-shadow: inset 0px 0px 0px 1px #fff;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border-radius: 5px; }
+    .menu .search__bar input:focus {
+      color: #342c4d;
+      -webkit-box-shadow: inset 0px 0px 0px 20px #fff;
+      -moz-box-shadow: inset 0px 0px 0px 20px #fff;
+      box-shadow: inset 0px 0px 0px 20px #fff; }
+      .menu .search__bar input:focus + .search__button:before {
+        content: url("https://rawgit.com/PIrich/catalyst/master/app/images/icon_search__b.svg"); }
+      .menu .search__bar input:focus + .search__button:hover:before {
+        opacity: 1;
+        -moz-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg); }
+  .menu .search__bar ::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 13px; }
+  .menu .search__bar :-moz-placeholder {
+    color: #ffffff;
+    font-size: 13px; }
+  .menu .search__bar ::-moz-placeholder {
+    color: #ffffff;
+    font-size: 13px; }
+  .menu .search__bar :-ms-input-placeholder {
+    color: #ffffff;
+    font-size: 13px; }
+  .menu .search__button {
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 0;
+    right: 0px;
+    top: 12px;
+    height: 34px;
+    width: 34px;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    overflow: hidden; }
+    .menu .search__button:before {
+      content: url("https://rawgit.com/PIrich/catalyst/master/app/images/icon_search.svg");
+      -moz-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+      moz-transform-origin: 6px 5px;
+      -o-transform-origin: 6px 5px;
+      -ms-transform-origin: 6px 5px;
+      -webkit-transform-origin: 6px 5px;
+      transform-origin: 6px 5px;
+      position: absolute;
+      width: 17px;
+      height: auto;
+      right: 12px;
+      top: 10px; }
