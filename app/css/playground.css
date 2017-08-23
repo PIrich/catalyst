@@ -1,6 +1,13 @@
-/*#meta-bar-dreamhub {
-    display:none !important;
+#meta-bar-dreamhub {
+    position:fixed;
+    top: 60px;
+    width: 100vw;
 }
+
+#content{
+	margin-top: 96px;
+}
+/*
 
 #flexheader{
 	display: flex;
