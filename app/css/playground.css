@@ -11,37 +11,20 @@
 	position: relative;
 }
 #profile-container{
-	order:2;
-	justify-content: flex-end;
+	order:1;
 }
 .hub-navigation-column{
-	order:1;
+	order:2;
 }
 .action-center-column{
 	order:3;
 }
-/*
-
-#flexheader{
-	display: flex;
-	flex-direction: column;
-}
-.hub-navigation-column
-
-#flexheader > #top-header { order: 1; }
-#flexheader > #meta-bar-dreamhub { order: 2; }
-
-*/
-
 
 #meta-bar-dreamhub .navigation-list:before {
    content: 'Community Navigation \a' attr(title) ' ';
    white-space: pre;  
-    /*left: -165px;
-    position: absolute;*/
     font-family: 'Roboto',Arial;
     font-size: 1.4em;
-    text-align: center;
 }
 
 #meta-bar-dreamhub .navigation-list {
