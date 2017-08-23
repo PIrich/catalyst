@@ -35,7 +35,7 @@
 
 #meta-bar-dreamhub .navigation-list:before {
 	content: "Community Navigation";
-	left: -150px;
+	left: -100px;
 	position: absolute;
 	font-family:'Roboto',Arial;
 	font-size:1.3em;
