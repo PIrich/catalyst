@@ -1,3 +1,8 @@
+header.header * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .header {
   position: fixed;
   left: 0;
@@ -39,3 +44,48 @@
   float: left;
   position: relative;
   z-index: 2;}
+
+.header nav a {
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 19px;
+  float: left;
+  text-decoration: none; }
+  .header nav a img, .header nav a svg {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;}
+  .header nav a:hover svg .path {
+    fill: #ffb635; }
+  .header nav a.back {
+    padding-left: 0;
+    opacity: 0.85; }
+  .header nav a.back:hover {
+      opacity: 1; }
+
+.header .home {
+  position: relative; }
+  .header .home img {
+    height: 39px;
+    z-index: 1001;
+    top: 8px;
+    position: absolute;
+ }
+
+.nav__main {
+  float: left;
+  width: 100%; }
+  .nav__main a {
+    padding: 0 2.5vw; }
+  .nav__main input[type=checkbox] {
+    display: none; }
+
+.nav__secondary, #meta-bar .container {
+  position: absolute;
+  right: 3%;
+  top: 0;
+  height: 44px;
+  opacity: 1;}
+  .nav__secondary a, #meta-bar .container a {
+    padding: 0 10px; }
