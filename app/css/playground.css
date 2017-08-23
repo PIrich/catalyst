@@ -1,0 +1,8 @@
+#flexheader{
+	display: flex;
+	flex-direction: column;
+}
+
+#flexheader > #meta-bar-dreamhub { order: 2; }
+#flexheader > #top-header { order: 1; }
+
