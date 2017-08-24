@@ -27,7 +27,7 @@ header.header * {
   box-sizing: border-box; }
 
 html, body, button {
-  font-family: 'montserrat-light', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 1em;
   line-height: 1.4;
@@ -35,7 +35,7 @@ html, body, button {
   padding: 0; }
 
 body[data-community="Catalyst"] {
-  font-family: 'montserrat-light', sans-serif !important; }
+  font-family: 'Roboto', sans-serif !important; }
 
 a {
   text-decoration: none;
@@ -427,7 +427,7 @@ body {
     position: relative;
     background: transparent;
     color: #ffffff;
-    font-family: 'montserrat-light', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     outline: none;
     -moz-transition: all 0.2s ease-out;
