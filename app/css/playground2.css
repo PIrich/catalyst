@@ -4,7 +4,12 @@
   src: url("//rawgit.com/PIrich/catalyst/master/app/css/montserrat-light-webfont.woff2") format("woff2"), url("//rawgit.com/PIrich/catalyst/master/app/css/montserrat-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
-
+/*Dreamhub Addition*/
+#meta-bar-dreamhub{
+	    position:absolute;
+	    top: 240px;
+	    width: 100%;
+	}
 /* VARIABLES */
 /* BASE */
 * {
