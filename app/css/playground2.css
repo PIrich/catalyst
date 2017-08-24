@@ -912,14 +912,14 @@ body {
       color: #ffb635; }
 
 html.advocate_hub {
-  overflow-x: hidden; }
+  overflow-x: scroll; }
 
-.lightbox {
+/*.lightbox {
   -moz-transform: translate(0, 0) !important;
   -o-transform: translate(0, 0) !important;
   -ms-transform: translate(0, 0) !important;
   -webkit-transform: translate(0, 0) !important;
-  transform: translate(0, 0) !important; }
+  transform: translate(0, 0) !important; }*/
 
 #meta-bar .dropdown-menu {
   width: auto;
