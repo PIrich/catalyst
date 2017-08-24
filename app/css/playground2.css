@@ -9,6 +9,9 @@
 	    top: 240px;
 	    width: 100%;
 	}
+#content{
+	margin-top: 276px;
+}
 /* VARIABLES */
 /* BASE */
 * {
