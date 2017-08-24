@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url(https://fonts.googleapis.com/css?family=Robotof);
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
 }
 
 #meta-bar-dreamhub{
@@ -28,7 +28,7 @@
 #meta-bar-dreamhub .navigation-list:before {
    content: 'Community Navigation \a' attr(title) ' ';
    white-space: pre;  
-    font-family: 'Roboto',Arial;
+    font-family: Roboto, Arial;
     font-size: 1.4em;
 }
 
