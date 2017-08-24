@@ -912,7 +912,7 @@ body {
       color: #ffb635; }
 
 html.advocate_hub {
-  overflow-x: scroll; }
+  overflow-x: visible; }
 
 .lightbox {
   -moz-transform: translate(0, 0) !important;
@@ -1017,7 +1017,7 @@ body[data-community="Catalyst"] {
     top: 0;
     left: 0;
     height: 100%; /*auto*/
-    overflow: visible; }
+    overflow: auto; }
 
  body[data-community="Catalyst"] .pt-modal-dialog  .pt-modal {
  	height:90%;
