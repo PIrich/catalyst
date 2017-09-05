@@ -7,25 +7,11 @@
 
 #meta-bar-dreamhub.smaller{
 	display:none;
-	
-	
 }
 
 #INBOX_CONTAINER{
 	margin-top: 96px;
 }
-
-/*
-#content{
-	margin-top: 96px;
-}
-
-
-
-#communityApp{
-	margin-top:96px;
-}
-*/
 
 /* VARIABLES */
 /* BASE */
@@ -1000,21 +986,8 @@ body[data-community="Catalyst"] {
         transform: none !important; }
   body[data-community="Catalyst"] ul.list > li {
     background: transparent; }
-  body[data-community="Catalyst"] .pt-modal-dialog {
-    /*position: absolute !important;*/
-    top: 0;
-    left: 0;
-    height: 100%; /*auto*/
-    overflow: auto; }
+  
 
- body[data-community="Catalyst"] .pt-modal-dialog  .pt-modal {
- 	height:90%;
- 	overflow-y: auto;
- }
-
- body[data-community="Catalyst"] #lockdialog.pt-modla-dialog.close.lightbox {
- 	display: none;
- }
 
 .dropdown-toggle:hover {
   color: #ffb635; }
