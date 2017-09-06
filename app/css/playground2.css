@@ -9,8 +9,8 @@
 	display:none;
 }
 
-body#inbox{
-	padding-top: 336px;
+div#INBOX_CONTAINER{
+	margin-top:336px;
 }
 
 .pt-card-container.limited-challenges {
