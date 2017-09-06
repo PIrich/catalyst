@@ -9,9 +9,13 @@
 	display:none;
 }
 
-#INBOX_CONTAINER{
-	margin-top: 96px;
+body #inbox{
+	padding-top: 336px;
 }
+
+.pt-card-container.limited-challenges {
+	padding-bottom: 400px;
+	}
 
 /* VARIABLES */
 /* BASE */
