@@ -5,14 +5,17 @@
 }
 /*Dreamhub Addition*/
 
+
+
 #meta-bar-dreamhub.smaller{
 	display:none;
 }
 
-div#INBOX_CONTAINER{
-	margin-top:336px;
-}
-
+@media (min-width: 1023px) {
+      #INBOX_CONTAINER {
+          margin-top: 336px;
+     }
+ }
 .pt-card-container.limited-challenges {
 	padding-bottom: 400px;
 	}
