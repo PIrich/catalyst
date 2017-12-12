@@ -7,7 +7,7 @@
 
 
 
-#meta-bar-dreamhub.smaller{
+.nav-bar.smaller{
 	display:none;
 }
 
@@ -957,7 +957,7 @@ html.advocate_hub {
 #meta-bar #notification-drop li.unread {
   background-color: transparent; }
 
-#meta-bar-dreamhub {
+.nav-bar {
     padding-top: 240px;
 }
 
